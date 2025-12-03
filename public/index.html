@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Egresos de Casa</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+      <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+      </svg>
+      <div>Egresos de casa</div>
+    </div>
+    <div class="nav-links" id="navLinks">
+      <a href="Personal.html">Personal</a>
+      <a href="transporte.html">Transporte</a>
+      <a href="vista">Gastos de hoy</a>
+    </div>
+    <div class="hamburger" id="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </nav>
+
+  <!-- Formulario -->
+  <div class="form-container">
+    <form class="form-son" id="e-house">
+      <p class="dt-txt">Producto Comprado</p>
+      <input id="prd-e" type="text" placeholder="Producto(Pollo Horneado)" required>
+      <p class="dt-txt">Cuantos Compro</p>
+      <input id="uds-e" type="text" placeholder="Unidades(1)" required>
+      <p class="dt-txt">Costo total</p>
+      <input id="ct-e" type="text" placeholder="Costo(11 Quetzales)" required>
+      <p class="dt-txt"> Fecha</p>
+      <input id="dt-e" type="date" required> 
+      <input type="submit" value="Enviar"> 
+    </form>
+  </div>
+
+  <script src="scripts/script.js" ></script>
+</body>
+</html>
+</html>

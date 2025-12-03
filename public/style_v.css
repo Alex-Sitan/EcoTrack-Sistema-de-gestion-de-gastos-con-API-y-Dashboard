@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #111;
+}
+.heade{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.date-actual {
+    color: #2e8e57;
+    font-weight: 300;
+}
+
+.container-date{
+    display: flex;
+    justify-content: right;
+}
+
+.find-date{
+    margin-top: 0.4rem;
+    margin-right: 0.5rem;
+    padding: 10px 10px;
+    color: #ccc;
+    font-weight: 800;
+    background-color: #2e8e57;
+    border: 2px solid transparent;
+    border-radius: 10%;
+}
+
+.btn-find{
+    border: 2px solid transparent;
+    border-radius: 30%;
+    background-color: #408871;
+    color: white;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+.del-cter{
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: right;
+}
+.del-inp{
+    margin-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-right: 0.4rem;
+    font-size: 15px;
+    text-align: right;
+    border: 2px solid transparent;
+    border-radius: 2rem;
+}
+.del-inp:valid{
+    color: #960018;
+}
+.btn-del{
+    background-color: #960018;
+    color: #ccc;
+    border: 3px solid transparent;
+    border-radius: 3%;
+}
+.btn-del:hover{
+    background-color: #670010;
+}
+
+.tabla-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 500px;
+}
+
+th,td {
+    padding: 10px;
+    border-bottom: 3px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background: #f3f3f3;
+    border: 1px solid #000;
+}
+
+tr:hover {
+    background: #f9f9f9;
+}
+
+td {
+    background-color: #1f2124;
+    color: white;
+}
+
+.E {
+    background-color: #408871;
+    color: #000;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .date-actual{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .find-date{
+    padding: 0.7rem 0.5rem;
+    }
+
+    .btn-find{
+        padding: 0 0.5rem;
+    }
+    .table /th{
+        font-size: 0.6rem;
+    }
+}
