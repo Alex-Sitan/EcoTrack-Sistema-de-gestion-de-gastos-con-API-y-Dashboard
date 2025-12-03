@@ -134,7 +134,7 @@ Muestra:
 
 Renderiza datos directamente desde SQLite usando better-sqlite3.
 
-![dashboard]([https://ibb.co/9kKF3rzB](https://drive.google.com/file/d/1QaXbVRYFcfZQR-Iw2k5CwsJdgXGCXA5z/view?usp=drivesdk))
+![dashboard](https://drive.google.com/file/d/1QaXbVRYFcfZQR-Iw2k5CwsJdgXGCXA5z/view?usp=drivesdk)
 
 
 ---
