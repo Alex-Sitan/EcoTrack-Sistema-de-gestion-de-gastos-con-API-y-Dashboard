@@ -69,7 +69,7 @@ EcoTrack---Sistema-de-Gesti-n-de-Gastos-con-API/
 ## 1. **Clona el repositorio**
 
 ```bash
-https://github.com/Alex-Sitan/EcoTrack---Sistema-de-Gesti-n-de-Gastos-con-API.git
+https://github.com/Alex-Sitan/EcoTrack-Sistema-de-gestion-de-gastos-con-API-y-Dashboard.git
 ```
 
 ## 2. **Instala las dependencias**
